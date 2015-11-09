@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class subStrings
 {
-   public static void main(String[] args){
-    Scanner scan = new Scanner(System.in);
-    
-    for(int count = 0;count <= word.length();word.substring(count)){
-        System.out.println("x");
-    }
+    public static void main(String[] args){
+        String word = "rum";
+        int  count = 0;
+        while (count < (word.length() +1)){
+            System.out.println(word.substring(0,count));
+            count++;
+        }
   }
 }
        
